@@ -1,0 +1,11 @@
+.input-text-area {
+    border-radius: 5px;
+    width: 65%;
+    font-size: 1rem;
+    font-family: gill-sans, sans-serif;
+    padding: 10px;
+    background-color: #ebebeb;
+    border: none;
+    box-shadow: inset 2px 2px 2px 0px #dddddd;
+    resize: none;
+}
