@@ -111,7 +111,7 @@ export default function Landing() {
     let inputValue = document.getElementById("input_text_area").value
 
     // add your API endpoint here
-    const request = await axios.get("https://simplyjapanese-dagchnol5a-ew.a.run.app/predict", { params: { inputText: inputValue }})
+    const request = await axios.get("https://simplyjapanese-dagchnol5a-ew.a.run.app/predict", { params: { input_text: inputValue }})
     return request.data
   }
 
